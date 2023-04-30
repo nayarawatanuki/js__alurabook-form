@@ -1,0 +1,16 @@
+@import url(../toolkits/fonts/Poppins.css);
+@import url(../toolkits/fonts/JosefinSans.css);
+
+:root {
+    --background: #EBECEE;
+    --black: #000000;
+    --blue: #002F52;
+    --font: "Poppins";
+    --gradient-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --gray: #474646;
+    --light-gray: #858585;
+    --orange:#EB9B00;
+    --red: #D94937;
+    --second-font: "Josefin Sans";
+    --white: #FFFFFF;
+}

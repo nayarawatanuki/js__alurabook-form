@@ -1,0 +1,51 @@
+@import url(config/reset.css);
+
+@import url(base/variables.css);
+
+@import url(components/index.css);
+
+
+body {
+    background-color: var(--white);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+figure {
+    display: flex;
+}
+
+figcaption {
+    align-items: center;
+    display: flex;
+    padding-top: 2%;
+}
+
+.main {
+    margin: 5em auto 6em auto;
+    width: 50vw;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--orange);
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    color: var(--blue);
+    margin: 3em 0 2em 0;
+}
+
+.msg__subtitle {
+    margin: 1em 0;
+}
+
+.text {
+    font-family: var(--font);
+}

@@ -1,0 +1,37 @@
+.menu-hamburguer {
+    width: 40px;
+    height: 40px;
+    background-image: url(../../../img/menu/Menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.menu__label {
+    padding: 0;
+    margin: 0;
+}
+
+.menu__button:checked ~ .menu__label > .menu-hamburguer {
+    background-image: url(../../../img/menu/openMenu.svg);
+}
+
+.menu__button:checked ~ .menu__label {
+    background: var(--gradient-blue);
+}
+
+.menu__button:checked ~ .menu-list {
+    display: block;
+}
+
+.menu__button {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .menu-hamburguer {
+        display: none;
+    }
+
+}
