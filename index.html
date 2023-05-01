@@ -107,7 +107,7 @@
             <section class="form">
                 <h2 class="title">Dados do cadastro</h2>
 
-                <form action="" class="form__container" id="form" target="_blank" onsubmit="location.replace('pages/messages/sucess.html')">
+                <form action="" class="form__container" id="form" target="_blank" onsubmit="location.replace('app/pages/messages/success.html')">
                     <fieldset class="form__fieldset">
                         <legend class="subtitle">Dados pessoais</legend>
 
@@ -145,12 +145,15 @@
 
                             <label for="zipCode" class="field-label">CEP</label>
                             <input type="text" name="zipCode" id="zipCode" class="field-input" required>
+                            <span class="form__error" id="zipCode-error">
+                                
+                            </span>
                         </fieldset>
 
                         <fieldset class="form__input">
 
-                            <label for="address" class="field-label">Endereço</label>
-                            <input type="text" name="address" id="address" class="field-input" required>
+                            <label for="street" class="field-label">Logradouro</label>
+                            <input type="text" name="street" id="street" class="field-input" required disabled>
                         </fieldset>
 
                         <div class="form-group2">
@@ -171,21 +174,22 @@
                         <fieldset class="form__input">
 
                             <label for="neighborhood" class="field-label">Bairro</label>
-                            <input type="text" name="neighborhood" id="neighborhood" class="field-input" required>
+                            <input type="text" name="neighborhood" id="neighborhood" class="field-input" required disabled>
                         </fieldset>
                         
                         <div class="form-group2">
                             <fieldset class="form__input">
                                 
                                 <label for="city" class="field-label">Cidade</label>
-                                <input type="text" name="city" id="city" class="field-input" required>
+                                <input type="text" name="city" id="city" class="field-input" required disabled>
                             </fieldset>
                             
                             
                             <fieldset class="form__input">
 
                                 <label for="state" class="field-label">UF</label>
-                                <select name="state" id="state" class="field-input">
+                                <select name="state" id="state" class="field-input" required disabled>
+                                    <option value=""></option>
                                     <option value="AC">Acre</option>
                                     <option value="AL">Alagoas</option>
                                     <option value="AP">Amapá</option>
