@@ -33,7 +33,7 @@ Esse projeto contém o objetivo de conhecer e profundar conhecimentos consumaç�
 
 **Foi aprendido e utilizado:** 
 
-  **Reconhecimento de voz**:
+  **API `fetch()`**:
   - Importar um arquivo Javascript dentro de um arquivo HTML;
   - Diferenciar um código Javascript assíncrono; 
   - Compreender a leitura do código Javascript; 
@@ -42,7 +42,7 @@ Esse projeto contém o objetivo de conhecer e profundar conhecimentos consumaç�
 
   - Criar funções que recebem como parâmetros outras funções (`callbacks`);
   - Identificar uma **API**;
-  - Consumir dados de uma **API** através do método `fetch`;
+  - Consumir dados de uma **API** através do método `fetch()`;
   - Compreender o funcionamento das `promises`;
 
 
